@@ -8,6 +8,7 @@ if($usuario == "admin" && $clave == "12345"){
     $_SESSION['entro'] = true;
 }
 else{
+    
     unset($_SESSION['entro']);
 }
 echo 'sdefsf';
